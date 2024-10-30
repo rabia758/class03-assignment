@@ -10,9 +10,7 @@ export default function Footer(){
                 <li>More Info</li>
             </ul>
         </div>
-            <div className="flex justify-center item-center bg-black ">
-            <Link href={"/"}><button> Back To Top</button></Link>
-            </div>
+    
         </>
     
     )
