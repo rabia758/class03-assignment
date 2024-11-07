@@ -150,6 +150,9 @@ p{
 
 .img{
   height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 250px;
   border: 2px solid blueviolet;
   object-fit: cover;
@@ -166,13 +169,15 @@ p{
   .img {
     height: 150px; /* Further reduce image size */
     width: 150px; /* Further reduce */
-    justify-content: left;
+    justify-content: center;
+    margin-top: 15px;
   }
 }
 @media (max-width: 320px) {
   .container {
     height: 500px; /* Adjust height for very small screens */
-    padding:10px /* Add some padding for better spacing */
+    padding:10px ;/* Add some padding for better spacing */
+    justify-content: center;
   }
 
   .child-container {
@@ -183,11 +188,14 @@ p{
   .img {
     height: 120px; /* Reduce image size */
     width: 120px; /* Reduce image size */
-    justify-items: left;
+    justify-content: center;
+    margin-top: 10px;
+
   }
 
   p {
     font-size: 14px; /* Smaller paragraph font size */
+    margin-top: 0;
   }
 }
 /*About section*/
